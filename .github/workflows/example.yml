@@ -8,7 +8,8 @@ on:
 
 # all the sction perform
 jobs: 
-  runs-on: ubuntu-latest
+  build: 
+   runs-on: ubuntu-latest
 
   steps: 
   - name: Checkout code
